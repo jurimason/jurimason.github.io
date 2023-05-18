@@ -246,3 +246,11 @@ footer > * > a{
 .social-icon{
     cursor: pointer;
 }
+
+
+
+
+
+a.page{
+    color: var(--darkblue);
+}
