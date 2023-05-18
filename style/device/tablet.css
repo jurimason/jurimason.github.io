@@ -1,0 +1,26 @@
+@media only screen and (min-width: 481px) and (max-width:820px) {
+    /*INDEX*/
+    #sportiverso{
+        width: 50vw !important;
+    }
+    #phrase{
+        font-size: 1.2rem;
+        margin-top: 10vh;
+    }
+
+    /*AREE DI LAVORO*/
+    #contacts-icon{
+        width: 15vw;
+        height: 15vw;
+        margin: 30px;
+    }
+
+    /*CAROUSEL*/
+    .carousel-wrapper{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .carousel-item > img{
+        width: 120px;
+    }
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="style/shared.css" />
+        <link rel="stylesheet" type="text/css" href="style/main.css" />
+        <link rel="stylesheet" type="text/css" href="style/misc.css" />
+        <link rel="stylesheet" type="text/css" href="style/ham-menu.css" />
+        <link rel="stylesheet" type="text/css" href="style/device/desktop.css" />
+        <link rel="stylesheet" type="text/css" href="style/device/tablet.css" />
+        <link rel="stylesheet" type="text/css" href="style/device/mobile.css" />
+        <link rel="stylesheet" type="text/css" href="style/device/desktop-tablet.css" />
+
+        <link rel="stylesheet" type="text/css" href="resources/font_madeyourself/stylesheet.css" />
+
+        <link rel="icon" href="ico.png">
+
+        <title>Sportiverso - Home</title>
+    </head>
+    <body>
+
+        <nav>
+            <div class="vertical-center">
+                <div>
+                    <span id="sportiverso-home">SPORTIVERSO</span>
+                    <div id="icon-menu" onclick="hamMenuClicked()">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="menu-list">
+            <a href="index.html" class="page">
+                HOME
+            </a>
+            <a href="areedilavoro.html" class="page">
+                AREE DI LAVORO
+            </a>
+            <a href="contatti.html" class="page">
+                CONTATTI
+            </a>
+        </div>
+
+        <section id="img-skeleton" class="hero vertical-center">
+            <div id="hero-wrapper">
+                <img id="sportiverso" src="resources/img/sportiverso.png" />
+                <span id="phrase">La nostra missione:<br /><br />accelerare i processi educativi attraverso il movimento e i valori dello sport per permettere ad ogni individuo di ottenere di più dalla propria vita.</span>
+            </div>
+        </section>
+
+        <div id="index-grid">
+
+            <!--COME LAVORIAMO-->
+            <section id="come-lavoriamo">
+                <div>
+                    <div class="horizontal-center">
+                        <span class="section-title">COME LAVORIAMO</span>
+                        <span class="section-subtitle">Il percorso previsto dai nostri professionisti per te.</span>
+                    </div>
+    
+                    <div id="come-lavoriamo-tables" class="section-other">
+                        <table>
+                            <tr class="table-row">
+                                <td>
+                                    <img src="resources/icons/comelavoriamo/analisi.png" />
+                                </td>
+                                <td>
+                                    <span class="paragraph-title">Accertamento e Analisi</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <span class="paragraph">
+                                        Colloquio iniziale con i professionisti di riferimento per valutare benessere psico-fisiologico, nutrizione, mindset, allenamento e stile di vita. Segue una analisi della postura statica, una analisi dei pattern motori di base e una analisi segmentale analitica e integrata. 
+                                        <br />
+                                        <span class="citation">
+                                            “Non si può gestire ciò che non si può analizzare e misurare”
+                                        </span>
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr class="table-row">
+                                <td>
+                                    <img src="resources/icons/comelavoriamo/programmazione.png" />
+                                </td>
+                                <td>
+                                    <span class="paragraph-title">Progettazione e Sviluppo del programma</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <span class="paragraph">
+                                        Viene creato un 'Percorso' di Allenamento PERSONALIZZATO, organico, strutturato, ad elevata Valenza Qualitativa contenente strategie motorie compensative, educative e ri- educative, volte a:
+                                        <br/>•recuperare
+                                        <br/>•migliorare
+                                        <br/>•armonizzare
+                                        <br/>•ottimizzare
+                                        <br/>il 'Comportamento Motorio' del soggetto.
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr class="table-row">
+                                <td>
+                                    <img src="resources/icons/comelavoriamo/coaching.png" />
+                                </td>
+                                <td>
+                                    <span class="paragraph-title">Coaching e Valutazione continua</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <span class="paragraph">
+                                        Monitoraggio e supporto continuo del processo di svilupppo delle capacità, risorse, competenze della persona gestite da un professionista attraverso l’individuazione degli ambiti di potenziale crescita finalizzato al raggiungimento dell’obiettivo. Sarà essenziale per lo sbloccaggio di resistenze al fine di raggiungere un benessere psicofisico migliore.
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                </div>
+            </section>
+
+            <!--AREE DI LAVORO-->
+            <section id="aree-di-lavoro" class="horizontal-center bg-lightblue">
+                <div>
+                    <div class="horizontal-center">
+                        <span class="section-title text-white">AREE DI LAVORO</span>
+                        <span class="section-subtitle text-white">Tutte le tecniche che utilizziamo per aiutarti.</span>
+                    </div>
+    
+                    <ul class="carousel-wrapper">
+                        <li class="carousel-item" onclick="window.location.href = 'areedilavoro.html#POSTUROLOGIA';">
+                            <img src="resources/icons/strumenti/posturologia.png" />
+                            <span>POSTUROLOGIA</span>
+                        </li>
+                        <li class="carousel-item" onclick="window.location.href = 'areedilavoro.html#PSICOLOGIA';">
+                            <img src="resources/icons/strumenti/psicologia.png" />
+                            <span>PSICOLOGIA</span>
+                        </li>
+                        <li class="carousel-item" onclick="window.location.href = 'areedilavoro.html#PSICOMOTRICITA';">
+                            <img src="resources/icons/strumenti/psicomotricita.png" />
+                            <span>PSICOMOTRICITÀ</span>
+                        </li>
+                        <li class="carousel-item" onclick="window.location.href = 'areedilavoro.html#SALUTEEMOVIMENTO';">
+                            <img src="resources/icons/strumenti/saluteemovimento.png" />
+                            <span>SALUTE E MOVIMENTO</span>
+                        </li>
+                        <li class="carousel-item" onclick="window.location.href = 'areedilavoro.html#SPORT';">
+                            <img src="resources/icons/strumenti/sport.png" />
+                            <span>SPORT</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--PRENOTAZIONI-->
+            <section id="prenotazioni" class="call-to-action bg-yellow" onclick="window.location.href = 'contatti.html';" >
+                PRENOTA UNA CALL CON UNO DEI NOSTRI PROFESSIONISTI!
+            </section>
+
+            <!--PROGETTI-->
+            <section id="img-brain" class="hero" style="height: 70vh;">
+                <div class="horizontal-center">
+                    <span class="section-title text-yellow">PROGETTI</span>
+                    <span class="section-subtitle text-yellow">Su cosa stiamo lavorando.</span>
+                </div>
+
+                <div class="vertical-center horizontal-center" style="height: 80%;">
+                    <img class="proj-img" src="resources/img/youthathlete.png"/>
+                    <img class="proj-img" src="resources/img/fzth.png"/>
+                </div>
+            </section>
+
+            <!--JOURNAL-->
+            <section id="journal" class="horizontal-center bg-yellow">
+                <div>
+                    <div class="horizontal-center">
+                        <span class="section-title text-white">SPORTIVERSO JOURNAL</span>
+                    </div>
+    
+                    <ul class="carousel-wrapper section-other">
+                        <li class="carousel-item">
+                            <div class="carousel-card vertical-center">
+                                <span class="section-title">ARTICOLO 1</span>
+                                <hr />
+                                <span class="section-subtitle">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt. lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</span>
+                            </div>
+                        </li>
+                        <li class="carousel-item">
+                            <div class="carousel-card vertical-center">
+                                <span class="section-title">ARTICOLO 2</span>
+                                <hr />
+                                <span class="section-subtitle">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt. lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</span>
+                            </div>
+                        </li>
+                        <li class="carousel-item">
+                            <div class="carousel-card vertical-center">
+                                <span class="section-title">ARTICOLO 3</span>
+                                <hr />
+                                <span class="section-subtitle">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt. lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</span>
+                            </div>
+                        </li>
+                        <li class="carousel-item">
+                            <div class="carousel-card vertical-center">
+                                <span class="section-title">ARTICOLO 4</span>
+                                <hr />
+                                <span class="section-subtitle">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt. lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--DICONO DI NOI-->
+            <section id="feedback">
+                <div>
+                    <div class="horizontal-center">
+                        <span class="section-title">DICONO DI NOI</span>
+                        <span class="section-subtitle text-lightblue">Le vostre recensioni.</span>
+                    </div>
+    
+                    <ul class="carousel-wrapper section-other horizontal-center">
+                        <li class="carousel-item">
+                            <div class="carousel-card vertical-center">
+                                <span class="section-title">RECENSIONE 1</span>
+                                <hr />
+                                <span class="section-subtitle">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt. lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</span>
+                            </div>
+                        </li>
+                        <li class="carousel-item">
+                            <div class="carousel-card vertical-center">
+                                <span class="section-title">RECENSIONE 2</span>
+                                <hr />
+                                <span class="section-subtitle">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt. lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</span>
+                            </div>
+                        </li>
+                        <li class="carousel-item">
+                            <div class="carousel-card vertical-center">
+                                <span class="section-title">RECENSIONE 3</span>
+                                <hr />
+                                <span class="section-subtitle">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt. lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</span>
+                            </div>
+                        </li>
+                        <li class="carousel-item">
+                            <div class="carousel-card vertical-center">
+                                <span class="section-title">RECENSIONE 4</span>
+                                <hr />
+                                <span class="section-subtitle">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt. lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>  
+        </div>
+
+        <!--CREDITS-->
+        <footer class="horizontal-center vertical-center">
+            <span class="section-subtitle">2023@Sportiverso</span>
+            <span class="section-subtitle">Created by <a  class="section-title"href="https://www.instagram.com/jurimason">Juri Mason</a></span>
+            <img class="social-icon" onclick="window.location.href = 'https:\/\/www.instagram.com/sportiverso';" src="resources/icons/instagram.png">
+        </footer>
+    </body>
+
+    <script src="scripts/main.js"></script>
+
+</html>

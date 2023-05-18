@@ -1,0 +1,28 @@
+@media only screen and (min-width: 481px) {
+    /*CAROUSEL*/
+    .carousel-wrapper{
+        width: 100%;
+        list-style-type: none;
+        overflow: scroll;
+
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        gap: 10px;
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .carousel-item{
+        display: block;
+    }
+    .carousel-item > span{
+        display: block;
+        font-size: 1rem;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+}

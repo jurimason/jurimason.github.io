@@ -1,0 +1,52 @@
+@media only screen and (min-width: 821px) {
+
+    /*INDEX*/
+    #sportiverso{
+        width: 25vw !important;
+    }
+    #phrase{
+        font-size: 1.5rem;
+        margin-top: 10vh;
+    }
+
+    #come-lavoriamo table{
+        display: inline-block;
+        width: 30%;
+        height: 100%;
+        vertical-align: top;
+        text-align: left;
+    }
+    #come-lavoriamo img{
+        width: 7vh;
+    }
+    #come-lavoriamo-tables{
+        text-align: center;
+    }
+
+    /*AREE DI LAVORO*/
+    #contacts-icon{
+        width: 7vw;
+        height: 7vw;
+        margin: 30px;
+    }
+
+    /*CONTATTI*/
+    #contatti .indirizzo.vertical-center{
+        align-items: self-start;
+    }
+    .indirizzo.vertical-center{
+        height: 30px;
+    }
+    input, textarea, button{
+        width: 70% !important;
+    }
+
+    /*CAROUSEL*/
+    .carousel-wrapper{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .carousel-item > img{
+        width: 180px;
+    }
+}

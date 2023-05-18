@@ -1,0 +1,32 @@
+@media only screen and (max-width:481px) {
+    .carousel-wrapper {
+        display: flex;
+        list-style: none;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+    }
+    .carousel-item {
+        flex-shrink: 0;
+        width: 100%;
+        scroll-snap-align: start;
+    }
+    .carousel-item > img{
+        width: 100%;
+        padding: 70px 70px 20px 70px;
+    }
+    .carousel-item > span {
+        width: 100%;
+        margin-bottom: 30px;
+    
+        font-weight: bold;
+        font-size: 1.3em;
+        display: block;
+    }
+    .carousel-card{
+        width: 100%;
+        height: 100%;
+        padding: 25px 25px 35px 25px;
+        border-top: 1px solid var(--darkblue);
+        border-bottom: 1px solid var(--darkblue);
+    }
+}

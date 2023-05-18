@@ -1,0 +1,47 @@
+
+<!-- saved from url=(0022)http://127.0.0.1:1234/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script defer="" src="./127.0.0.1_files/pyscript.js"></script>
+
+  <script src="./127.0.0.1_files/pyodide.js"></script></head><body><py-config>
+    packages = ['pandas', 'numpy', 'matplotlib', 'scipy', 'scikit-learn']
+
+    [[fetch]]
+    files = ['/main.py']
+  </py-config>
+
+  <style>
+    py-config, py-script {
+      display: none;
+    }
+    label{
+      font-weight: bold;
+    }
+    label, input{
+      display: block;
+      width: 100%;
+      height: 30px;
+    }
+  </style>
+
+
+
+  <h1>movie SCORE prediction</h1>
+  <h2>insert the requested informations in the right format</h2>
+  <form onsubmit="return false">
+    <label for="title">title</label>
+    <input type="text" id="title" name="title" required=""><br>
+
+    <label for="infos">rating, genre, votes(as a number), director, writer, star, country, budget(as a number), company</label>
+    <input type="text" id="infos" name="infos" required=""><br>
+
+    <input type="submit" id="btn-form" py-onclick="sub()" value="submit">
+  </form>
+
+  <py-script id="py-internal-0"></py-script>
+
+  <br>
+  <p id="output"></p>
+
+
+<py-terminal auto="" class=""><pre class="py-terminal">The Shining - a,b,1200,d,e,f,g,1000000,i : 6.2294497739901855<br></pre></py-terminal></body></html>

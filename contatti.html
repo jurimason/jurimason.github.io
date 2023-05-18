@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="style/shared.css" />
+        <link rel="stylesheet" type="text/css" href="style/main.css" />
+        <link rel="stylesheet" type="text/css" href="style/misc.css" />
+        <link rel="stylesheet" type="text/css" href="style/ham-menu.css" />
+        <link rel="stylesheet" type="text/css" href="style/device/desktop.css" />
+        <link rel="stylesheet" type="text/css" href="style/device/tablet.css" />
+        <link rel="stylesheet" type="text/css" href="style/device/mobile.css" />
+        <link rel="stylesheet" type="text/css" href="style/device/desktop-tablet.css" />
+
+        <link rel="stylesheet" type="text/css" href="resources/font_madeyourself/stylesheet.css" />
+
+        <link rel="icon" href="ico.png">
+
+        <title>Sportiverso - Contatti</title>
+    </head>
+    <body>
+
+        <nav>
+            <div class="vertical-center">
+                <div>
+                    <span id="sportiverso-home">SPORTIVERSO</span>
+                    <div id="icon-menu" onclick="hamMenuClicked()">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="menu-list">
+            <a href="index.html" class="page">
+                HOME
+            </a>
+            <a href="areedilavoro.html" class="page">
+                AREE DI LAVORO
+            </a>
+            <a href="contatti.html" class="page">
+                CONTATTI
+            </a>
+        </div>
+
+        <section id="contatti" class="section-secondary">
+            <div>
+                <span class="section-title">Contatti</span>
+
+                <br/>
+                <hr>
+                <div class="indirizzo vertical-center">
+                    <div class="img-nextto-text">
+                        <img src="resources/icons/phone.png" width="25vw">
+                        <a style="color: var(--lightblue);" href="tel:+393465827369">+39 3465827369</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="indirizzo vertical-center">
+                    <div class="img-nextto-text">
+                        <img src="resources/icons/instagram.png" width="25vw">
+                        <a style="color: var(--lightblue);" href="https://www.instagram.com/sportiverso">@sportiverso</a>
+                    </div>
+                </div>
+                <hr>
+                <br/>
+                
+                <div class="horizontal-center">
+                    <span class="paragraph text-lightblue" style="padding-left: 0; margin-left: 0; padding-bottom: 20px;">Inviaci una mail tramite il seguente form</span>
+
+                    <form action="mailto:contact@yourdomain.com" method="POST" enctype="multipart/form-data" name="EmailForm"><br>
+                        Nome:<br>
+                        <input type="text" size="19" name="Contact-Name" placeholder="Mario Rossi"><br>
+                        Email:<br>
+                        <input type="email" name="Contact-Email" placeholder="mario.rossi@gmail.com"><br>
+                        Messaggio:<br>
+                        <textarea name="Contact-Message" rows="4" cols="50" placeholder=""></textarea>
+                        </textarea><br>
+                        <button type="submit" value="Submit">invia</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--CREDITS-->
+        <footer class="horizontal-center vertical-center">
+            <span class="section-subtitle">2023@Sportiverso</span>
+            <span class="section-subtitle">Created by <a  class="section-title"href="https://www.instagram.com/jurimason">Juri Mason</a></span>
+            <img class="social-icon" onclick="window.location.href = 'https:\/\/www.instagram.com/sportiverso';" src="resources/icons/instagram.png">
+        </footer>
+    </body>
+
+    <script src="scripts/main.js"></script>
+
+</html>
